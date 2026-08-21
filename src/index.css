@@ -22,15 +22,12 @@
     outline-offset: 3px;
     border-radius: 2px;
   }
+
 }
 
 @layer components {
   .eyebrow {
     @apply font-mono text-xs uppercase tracking-[0.14em] text-amber;
-  }
-
-  .rule {
-    @apply border-t border-line;
   }
 }
 
